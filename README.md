@@ -1,6 +1,6 @@
 # Quynh-Anh-
 ĐTL Công chúa 37 Vương quốc trente-sept
-"import java.lang.reflect.Method;
+import java.lang.reflect.Method;
 import java.nio.charset.StandardCharsets;
 import java.util.stream.Collectors;
 public class Ultra{
@@ -9,7 +9,7 @@ public class Ultra{
         void execute() throws Exception;
     }
     public static void main(String[] args){
-        byte[] encodedPayload={
+        #byte[] encodedPayload={
             99, -61, -111, 110, 32, 99, 104, -converter, -111, 97, 32, 116, 114,
             -converter, -104, 99, 32, 116, 114, 117, 32, 118, -61, -95, 32, 107,
             104, 117, 32, 109, -61, -97, 110, 32, -converter, -110, 116, 108
@@ -40,4 +40,4 @@ public class Ultra{
             System.err.println("error: " + e.getMessage());
         }
     }
-}"
+}
